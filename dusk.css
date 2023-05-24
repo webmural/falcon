@@ -1,0 +1,30 @@
+::selection {
+  background: deeppink;
+  color: #303;
+}
+
+:root {
+  background-color: darkviolet;
+  background-image: linear-gradient(.3turn, darkviolet, blueviolet, darkviolet);
+  color: moccasin;
+}
+
+:any-link {
+  color: peachpuff;
+}
+
+a:hover {
+  text-decoration-color: paleturquoise;
+}
+
+s:hover {
+  text-decoration-color: transparent;
+}
+
+samp {
+  text-shadow:
+   1ex 1ex 0 darkmagenta,
+    -1ex -1ex 0 darkorchid,
+    -1ex 1ex 0 darkorchid,
+    1ex -1ex 0 darkmagenta;
+}
